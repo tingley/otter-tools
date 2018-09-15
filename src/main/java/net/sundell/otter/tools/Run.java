@@ -18,6 +18,7 @@ public class Run extends CLI {
     protected void registerCommands(Map<String, Class<? extends Command>> commands) {
         commands.put("count", CountTUs.class);
         commands.put("copy", CopyHead.class);
+        commands.put("replace", ReplaceTarget.class);
     }
 
     @Override
