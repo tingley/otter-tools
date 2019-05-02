@@ -19,6 +19,7 @@ public class Run extends CLI {
         commands.put("count", CountTUs.class);
         commands.put("copy", CopyHead.class);
         commands.put("replace", ReplaceTarget.class);
+        commands.put("split", Split.class);
     }
 
     @Override
