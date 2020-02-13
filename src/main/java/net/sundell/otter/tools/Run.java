@@ -20,6 +20,7 @@ public class Run extends CLI {
         commands.put("copy", CopyHead.class);
         commands.put("replace", ReplaceTarget.class);
         commands.put("split", Split.class);
+        commands.put("filter-lang", FilterLanguages.class);
     }
 
     @Override
